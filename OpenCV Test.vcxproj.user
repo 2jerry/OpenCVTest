@@ -11,7 +11,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerEnvironment>PATH=C:\opencv-3.4\build\x64\vc15\bin;%PATH%</LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>C:\Users\LeeJay\Desktop\embeded\OpenCVTest\picture\saltAndPepper.jpg</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>C:\Users\LeeJay\Desktop\embeded\OpenCVTest\input\blackbox_video1.mp4</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerEnvironment>PATH=C:\opencv-3.4\build\x64\vc15\bin;%PATH%</LocalDebuggerEnvironment>

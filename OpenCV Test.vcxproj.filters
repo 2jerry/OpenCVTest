@@ -13,46 +13,58 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\180430">
+    <Filter Include="소스 파일\1차시">
       <UniqueIdentifier>{b6d1f156-40be-47ef-8ac5-9610539e9c15}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\180503">
+    <Filter Include="소스 파일\2차시">
       <UniqueIdentifier>{7c9557b1-42cc-49f1-a59b-d035846b4e5d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\180510">
+    <Filter Include="소스 파일\3차시">
       <UniqueIdentifier>{f18a05af-03af-49bd-aab1-22f4643c42bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4차시">
+      <UniqueIdentifier>{1d2e06e8-6827-4bd4-84c4-0e9a3bfa9e8f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\1-1.cpp">
+      <Filter>소스 파일\1차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\1-2.cpp">
+      <Filter>소스 파일\1차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\1-3.cpp">
+      <Filter>소스 파일\1차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\1-4.cpp">
+      <Filter>소스 파일\1차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\2-1.cpp">
+      <Filter>소스 파일\2차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\2-2.cpp">
+      <Filter>소스 파일\2차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\2-3.cpp">
+      <Filter>소스 파일\2차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3-1.cpp">
+      <Filter>소스 파일\3차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\2-4.cpp">
+      <Filter>소스 파일\2차시</Filter>
+    </ClCompile>
+    <ClCompile Include="3-2.cpp">
+      <Filter>소스 파일\3차시</Filter>
+    </ClCompile>
+    <ClCompile Include="3-3.cpp">
+      <Filter>소스 파일\3차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-1.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-2.cpp">
       <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="1-1.cpp">
-      <Filter>소스 파일\180430</Filter>
-    </ClCompile>
-    <ClCompile Include="1-2.cpp">
-      <Filter>소스 파일\180430</Filter>
-    </ClCompile>
-    <ClCompile Include="1-3.cpp">
-      <Filter>소스 파일\180430</Filter>
-    </ClCompile>
-    <ClCompile Include="1-4.cpp">
-      <Filter>소스 파일\180430</Filter>
-    </ClCompile>
-    <ClCompile Include="2-1.cpp">
-      <Filter>소스 파일\180503</Filter>
-    </ClCompile>
-    <ClCompile Include="2-2.cpp">
-      <Filter>소스 파일\180503</Filter>
-    </ClCompile>
-    <ClCompile Include="2-3.cpp">
-      <Filter>소스 파일\180503</Filter>
-    </ClCompile>
-    <ClCompile Include="2-4.cpp">
-      <Filter>소스 파일\180510</Filter>
-    </ClCompile>
-    <ClCompile Include="3-1.cpp">
-      <Filter>소스 파일\180510</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
