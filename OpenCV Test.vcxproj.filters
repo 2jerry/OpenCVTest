@@ -64,6 +64,27 @@
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
     <ClCompile Include="4-2.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-3.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-4.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-5.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-6.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-7.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-8.cpp">
+      <Filter>소스 파일\4차시</Filter>
+    </ClCompile>
+    <ClCompile Include="4-9.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
