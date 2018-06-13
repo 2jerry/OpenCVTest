@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="헤더 파일">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
@@ -13,31 +9,64 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="클래스 파일">
+      <UniqueIdentifier>{82c0787b-e309-47a0-977f-fe9cf29bea6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{0e0abf00-7ac8-42d1-b0c4-c4aa4db25e0b}</UniqueIdentifier>
+    </Filter>
     <Filter Include="소스 파일\1차시">
-      <UniqueIdentifier>{b6d1f156-40be-47ef-8ac5-9610539e9c15}</UniqueIdentifier>
+      <UniqueIdentifier>{3f180eb5-6ab4-48c1-ba1b-ca6446bb77b8}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\2차시">
-      <UniqueIdentifier>{7c9557b1-42cc-49f1-a59b-d035846b4e5d}</UniqueIdentifier>
+      <UniqueIdentifier>{8b5627f9-a6ee-46f1-9869-e8e92789889d}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\3차시">
-      <UniqueIdentifier>{f18a05af-03af-49bd-aab1-22f4643c42bf}</UniqueIdentifier>
+      <UniqueIdentifier>{4cb1d440-3c9d-4a24-aec3-1928a50398bb}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\4차시">
-      <UniqueIdentifier>{1d2e06e8-6827-4bd4-84c4-0e9a3bfa9e8f}</UniqueIdentifier>
+      <UniqueIdentifier>{61d15e69-37e9-43b0-9280-44c2cb1a78b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5차시">
+      <UniqueIdentifier>{e5156707-8a74-4c74-998c-73d2717e28ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6차시">
+      <UniqueIdentifier>{292bf7b5-3c0c-4c44-849c-e220726163f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7차시">
+      <UniqueIdentifier>{582e9271-d54d-4616-8eed-bcd478714ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8차시">
+      <UniqueIdentifier>{42cd6b96-3da3-44d1-8a8d-87328a7fac58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="클래스 파일\HoughLine">
+      <UniqueIdentifier>{822e22fb-8c7d-43a5-bd76-f4d9691ff01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="클래스 파일\Mouse">
+      <UniqueIdentifier>{3661c688-4350-4b1b-a3db-4f90ba05db94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="클래스 파일\BlackBox">
+      <UniqueIdentifier>{ab232315-4042-4c34-b1e2-7401f32e9cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="클래스 파일\MyContrast">
+      <UniqueIdentifier>{1c24a7c9-0ebc-49e7-beed-eb0d33c80aa6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\1-3.cpp">
+      <Filter>소스 파일\1차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\1-4.cpp">
+      <Filter>소스 파일\1차시</Filter>
+    </ClCompile>
     <ClCompile Include="src\1-1.cpp">
       <Filter>소스 파일\1차시</Filter>
     </ClCompile>
     <ClCompile Include="src\1-2.cpp">
       <Filter>소스 파일\1차시</Filter>
     </ClCompile>
-    <ClCompile Include="src\1-3.cpp">
-      <Filter>소스 파일\1차시</Filter>
-    </ClCompile>
-    <ClCompile Include="src\1-4.cpp">
-      <Filter>소스 파일\1차시</Filter>
+    <ClCompile Include="src\2-4.cpp">
+      <Filter>소스 파일\2차시</Filter>
     </ClCompile>
     <ClCompile Include="src\2-1.cpp">
       <Filter>소스 파일\2차시</Filter>
@@ -48,44 +77,139 @@
     <ClCompile Include="src\2-3.cpp">
       <Filter>소스 파일\2차시</Filter>
     </ClCompile>
+    <ClCompile Include="src\3-3.cpp">
+      <Filter>소스 파일\3차시</Filter>
+    </ClCompile>
     <ClCompile Include="src\3-1.cpp">
       <Filter>소스 파일\3차시</Filter>
     </ClCompile>
-    <ClCompile Include="src\2-4.cpp">
-      <Filter>소스 파일\2차시</Filter>
-    </ClCompile>
-    <ClCompile Include="3-2.cpp">
+    <ClCompile Include="src\3-2.cpp">
       <Filter>소스 파일\3차시</Filter>
     </ClCompile>
-    <ClCompile Include="3-3.cpp">
-      <Filter>소스 파일\3차시</Filter>
-    </ClCompile>
-    <ClCompile Include="4-1.cpp">
+    <ClCompile Include="src\4-8.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-2.cpp">
+    <ClCompile Include="src\4-9.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-3.cpp">
+    <ClCompile Include="src\4-1.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-4.cpp">
+    <ClCompile Include="src\4-2.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-5.cpp">
+    <ClCompile Include="src\4-3.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-6.cpp">
+    <ClCompile Include="src\4-4.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-7.cpp">
+    <ClCompile Include="src\4-5.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-8.cpp">
+    <ClCompile Include="src\4-6.cpp">
       <Filter>소스 파일\4차시</Filter>
     </ClCompile>
-    <ClCompile Include="4-9.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="src\4-7.cpp">
+      <Filter>소스 파일\4차시</Filter>
     </ClCompile>
+    <ClCompile Include="class\MyCV\MyOpenCV.cpp">
+      <Filter>소스 파일\5차시</Filter>
+    </ClCompile>
+    <ClCompile Include="class\MyCV\MyOpenCVMain.cpp">
+      <Filter>소스 파일\5차시</Filter>
+    </ClCompile>
+    <ClCompile Include="class\MyCV\MyCV.cpp">
+      <Filter>소스 파일\5차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\6-6.cpp">
+      <Filter>소스 파일\6차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\6-1.cpp">
+      <Filter>소스 파일\6차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\6-2.cpp">
+      <Filter>소스 파일\6차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\6-3.cpp">
+      <Filter>소스 파일\6차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\6-4.cpp">
+      <Filter>소스 파일\6차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\6-5.cpp">
+      <Filter>소스 파일\6차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\7-1.cpp">
+      <Filter>소스 파일\7차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\7-2.cpp">
+      <Filter>소스 파일\7차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\7-3.cpp">
+      <Filter>소스 파일\7차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\7-4.cpp">
+      <Filter>소스 파일\7차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\7-5.cpp">
+      <Filter>소스 파일\7차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\8-2.cpp">
+      <Filter>소스 파일\8차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\8-3.cpp">
+      <Filter>소스 파일\8차시</Filter>
+    </ClCompile>
+    <ClCompile Include="src\8-1.cpp">
+      <Filter>소스 파일\8차시</Filter>
+    </ClCompile>
+    <ClCompile Include="class\HoughLine\hmain.cpp">
+      <Filter>클래스 파일\HoughLine</Filter>
+    </ClCompile>
+    <ClCompile Include="class\HoughLine\HoughLineDetection.cpp">
+      <Filter>클래스 파일\HoughLine</Filter>
+    </ClCompile>
+    <ClCompile Include="class\HoughLine\HoughLineDetection_line.cpp">
+      <Filter>클래스 파일\HoughLine</Filter>
+    </ClCompile>
+    <ClCompile Include="class\HoughLine\main_line.cpp">
+      <Filter>클래스 파일\HoughLine</Filter>
+    </ClCompile>
+    <ClCompile Include="class\Mouse\main.cpp">
+      <Filter>클래스 파일\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="class\Mouse\mouse_main.cpp">
+      <Filter>클래스 파일\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="class\Mouse\MouseDetection.cpp">
+      <Filter>클래스 파일\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="class\MyContrast\main_contrast.cpp">
+      <Filter>클래스 파일\MyContrast</Filter>
+    </ClCompile>
+    <ClCompile Include="class\MyContrast\MyContrastClass.cpp">
+      <Filter>클래스 파일\MyContrast</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="class\MyCV\MyCV.hpp">
+      <Filter>소스 파일\5차시</Filter>
+    </ClInclude>
+    <ClInclude Include="class\MyCV\MyOpenCV.hpp">
+      <Filter>소스 파일\5차시</Filter>
+    </ClInclude>
+    <ClInclude Include="class\HoughLine\HoughLineDetection.hpp">
+      <Filter>클래스 파일\HoughLine</Filter>
+    </ClInclude>
+    <ClInclude Include="class\HoughLine\HoughLineDetection_line.hpp">
+      <Filter>클래스 파일\HoughLine</Filter>
+    </ClInclude>
+    <ClInclude Include="class\Mouse\MouseDetection.h">
+      <Filter>클래스 파일\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="class\MyContrast\MyContrastClass.hpp">
+      <Filter>클래스 파일\MyContrast</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
